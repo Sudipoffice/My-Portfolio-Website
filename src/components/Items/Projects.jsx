@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectItems from "../../ProjectItems";
-
+import "./Projects.css";
 
 function Projects(){
     return(

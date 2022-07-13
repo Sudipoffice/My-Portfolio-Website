@@ -1,0 +1,20 @@
+/* Contact.jsx */
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+}
+.contact-icon i{
+    padding: 1em;
+    padding-top: 3em;
+    color: rgb(255, 255, 255);
+}
+.copyright p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6vw;
+    color: white;
+    font-weight: bold;
+}

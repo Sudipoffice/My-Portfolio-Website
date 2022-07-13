@@ -1,6 +1,6 @@
 import React from "react";
 import SkillsItems from "../../SkillsItems";
-
+import "./Skills.css";
 
 function Skills(){
     return(

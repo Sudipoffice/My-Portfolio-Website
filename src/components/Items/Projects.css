@@ -1,0 +1,98 @@
+/* Projects.jsx */
+
+.projects-primary{
+    background: linear-gradient(45deg ,rgb(211, 211, 211),rgb(73, 5, 19));
+    height: 120vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.projects-primary h1{
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6vw;
+    color:white;
+}
+.projects-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-top: 4vw;
+    font-size: 23px;
+}
+
+.project-card{
+    border-radius: 25px;
+    background-color: #FFF;
+    width: 20%;
+    height: 20em;
+    margin :0em 4em;
+  }
+  .project-container ul{
+    flex-direction: row;
+    margin : 4em;
+  }
+
+  .project-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+  }
+  .project-overlay::before,
+.project-overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 20px;
+  background-color: #46c2dea0;
+}
+.project-overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+.project-name{
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.project-description{
+    font-size: 16px;
+    color: #707070;
+    text-align: center;
+    width: 80%;
+    padding-top: 2em;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, #dceff4b4,#40c4f4b4) ;
+    border-radius: 25px 25px 0 25px;
+
+  }
+  .card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+  }
+  .card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #cd8ef2;
+  }

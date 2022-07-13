@@ -1,0 +1,71 @@
+/* About.jsx */
+
+.about-primary{
+    background: linear-gradient(45deg ,rgb(211, 211, 211),rgb(234, 118, 151));
+    height: 120vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.about-primary h1{
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6vw;
+    color:white;
+}
+
+.introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4em;
+}
+.card{
+   
+    background:#ffffff;
+    border-radius:20px;
+    width: 22%;
+    height: 30em;
+    
+  }
+
+
+  .card:hover:before{
+    position:absolute;
+    content:'';
+    width:100px;
+    height:100px;
+    background:rgb(155, 126, 126);
+    bottom:0;
+    right:0;
+    z-index:-1;
+    border-top-left-radius:100px;
+    transition:0.5s;
+  }
+  .card:hover:before{
+    transform:scale(10);
+  }
+
+
+
+.card-image{
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    transform: translateX(50%);
+    margin-top: 2em;
+}
+.card-image img{
+    border-radius: 50%;
+}
+
+.card-content .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .description{
+   transform: translate(5%,20%);
+}

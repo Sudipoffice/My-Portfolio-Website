@@ -1,0 +1,42 @@
+/* Skills.jsx */
+
+.skills-primary{
+    background: linear-gradient(45deg ,rgb(211, 211, 211),rgb(6, 96, 84));
+    height: 120vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.skills-primary h1{
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6vw;
+    color:white;
+}
+
+.skills-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-top: 4vw;
+    font-size: 23px; 
+}
+.skill{
+    padding:0vw 3vw;
+}
+
+.skills-info img{
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-info li{
+    padding: 1.8em;
+    color: white;
+    font-weight: 400;
+}
